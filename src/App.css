@@ -1,0 +1,104 @@
+.App {
+  /* background-image: url("https://img.freepik.com/free-vector/hanging-plant-psd-houseplant-doodle_53876-118603.jpg?w=740&t=st=1691669271~exp=1691669871~hmac=c997d9be0c291874667d2fd2cd9f942a235f35701f91895f09fbe2173e4a60f6"); */
+ 
+ /* position: relative;  */
+ /* height: 100vh;
+ width: 100%;
+ display: flex; */
+ /* align-items: center;
+ justify-content: center; */
+
+  /* position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+    */
+  /* text-align: center;
+  background-color: rgb(239, 247, 243); */
+
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  /* opacity: 0.5; */ 
+  /* position: relative; 
+    height: 100vh;
+    /* width: 100%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */ 
+    
+    /* background-color: rgb(239, 247, 243); */
+}
+/* 
+body{
+  background-image: url("https://www.nicepng.com/png/detail/150-1508077_monstera-leaf-cheese-plant-leaf.png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+body::before {    
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.35);
+} */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+p{
+  text-align: center;
+}
+h1{
+  /* background-color: rgb(167, 202, 179); */
+  /* border-radius: 0.5em; */
+  font-size: 1.5em;
+  padding: 0.3em;
+  position: relative;
+  text-align: center;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  margin-top: 0;
+  min-height: 30vh;
+  width: 100vw;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:  rgb(167, 202, 179);
+  font-size: 100px;
+  margin-bottom: 0px;
+  /* background-color: blue; */
+}
+
+.sub-heading{
+  font-size: 50px;
+  margin-top: 0.1em;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.link{
+  text-decoration: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,9 @@
+.subjectContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100em;
+  margin: 2em;
+ 
+}
