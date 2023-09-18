@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
+import {useParams} from "react-router-dom";
 
-const PlantPage = ({id}) => {
+const PlantPage = () => {
   const [plant, setPlant] = useState(null);
+  const {id} = useParams();
 
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        `api/v1/plants/plant/${id}`
+        `http://localhost:3000/api/v1/plants/plantpage/${id}`
       );
       const data = await response.json();
       console.log(data);
@@ -17,17 +19,17 @@ const PlantPage = ({id}) => {
 
   return (
 
-   
-    //get plant by id?
-    plant?
+   <div>
+    {plant?
     <div>
         <h1>{plant.name}</h1>
-        <p>{watering}</p>
-        <p>{sunlight}</p>
-        <p>{careNotes}</p>
-        <a href={image}></a>
+        <p>{plant.watering}</p>
+        <p>{plant.sunlight}</p>
+        <p>{plant.careNotes}</p>
+        <a href={plant.image}></a>
     </div>
-    : "error no plant found"
+    : "error no plant found"}
+    </div>
   )
 }
 

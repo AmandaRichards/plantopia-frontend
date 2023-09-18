@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+          
 import {
   BrowserRouter,
   Route,
@@ -12,13 +13,16 @@ import CreatePlant from './Components/CreatePlant';
 import PlantPage from './Components/PlantPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+  
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="create" element={<CreatePlant />} />
-      <Route path="plantpage" element={<PlantPage />} />
+      {/* <Route path="plantpage" element={<PlantPage$ />} /> */}
+       <Route path="plantpage/:id" element={<PlantPage />} />
       {/* <Route path="projects" element={<Projects />} />
       <Route path="contact" element={<ContactPage />} /> */}
     </Routes>

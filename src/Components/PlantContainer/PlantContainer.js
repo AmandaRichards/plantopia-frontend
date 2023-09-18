@@ -27,7 +27,7 @@ const [plants, setPlants] = useState(null);
       
       {plants
           ? plants.map((plant) => {
-              return <Plant name={plant.name} image={plant.image} />;
+              return <Plant name={plant.name} image={plant.image} id={plant.id}/>;
             })
           : `Loading Data...`}
     </div>
