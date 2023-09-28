@@ -64,10 +64,10 @@ function Create () {
     {/* <Header></Header> */}
     <div className={css.page}>
     <div className={css.wrapper}>
-    <h1>Add a New Plant</h1>
+    <h1 className={css.title}>Add a New Plant</h1>
     <p>{name}</p>
     
-    <form className={css.Form} onSubmit={handleSubmit}>
+    <form className={css.form} onSubmit={handleSubmit}>
         <input  
           type="text"
           value={name}

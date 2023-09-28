@@ -1,0 +1,84 @@
+/* .plantContainer{ */
+    /* display: flex; */
+    /* justify-content:center; */
+    /* align-content: space-evenly; */
+   
+    /* flex-direction: column;
+    justify-content: flex-start;
+    align-items: left; */
+    /* align-items:left;
+    align-content: flex-start; */
+    /* flex-flow: row wrap; */
+    /* flex-wrap: wrap;
+    width: 10em; */
+    /* padding: 2em; */
+    /* border: 5px solid red; */
+    /* text-align: left;
+    
+    justify-items: left; */
+    /* width: 40em; */
+
+/* } */
+
+.title{
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 1em;
+}
+
+.pictureBox{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* max-width: 1%;
+    max-height: 1%; */
+}
+
+.image{
+    max-width: 80%;
+    max-height: 80%;
+    /* border: 5px solid red; */
+
+}
+
+.plantInfo{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: left;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 100em;
+    height: 10em;
+    padding-left: 10em;
+    
+}
+
+.plantDetails{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50em;
+    background-color: rgb(190, 221, 201);;
+    border-radius: 0.5em;
+    border-color: aqua;
+    border-width: 1em;
+    padding: 1em;
+}
+.bold{
+    font-weight: bold;
+}
+
+.buttons{
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    justify-content: left;
+}

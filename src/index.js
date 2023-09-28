@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 import CreatePlant from './Components/CreatePlant';
 import PlantPage from './Components/PlantPage';
-
+import UpdatePlant from './Components/UpdatePlant';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -21,6 +21,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="create" element={<CreatePlant />} />
+      <Route path="update/:id" element={<UpdatePlant />} />
       {/* <Route path="plantpage" element={<PlantPage$ />} /> */}
        <Route path="plantpage/:id" element={<PlantPage />} />
       {/* <Route path="projects" element={<Projects />} />

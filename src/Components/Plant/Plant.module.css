@@ -1,5 +1,6 @@
 .card{
-    background-color: rgba(255, 255, 255, 0.955);
+    /* background-color: rgba(255, 255, 255, 0.955); */
+    background-color: rgb(167, 202, 179);
      min-height: 30px;
         max-width: 300px; 
         box-shadow: 6px 10px #f9fbfa;
@@ -19,6 +20,7 @@
         border-width: 100px;
         text-align: center;
         
+        
     }
 
     .card:hover{
@@ -30,4 +32,10 @@
         margin-bottom: 10em;
         padding-top: 2em;
         padding-bottom: 2em;
+        text-decoration: none;
+    }
+
+    .link{
+        color: black;
+        text-decoration: none;
     }

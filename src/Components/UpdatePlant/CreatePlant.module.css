@@ -1,32 +1,4 @@
-/* .wrapper{
-    display: flex;
-    justify-content:center;
-    /* align-content: center; */
-     /* max-width: 10px;  */
-     /* margin: 10em;
-} */ 
-
-/* .Form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    /* max-width: 10px; */
-    /* margin-left: 0em; */
-    /* border-color: red;
-} */
-
-/* .field{ */
-    /* display: flex; */
-    /* align-content: center;
-    align-items: center;
-    justify-content: center;
-    width: 10em;
-   
-}  */
-
-.wrapper{
+ .wrapper{
     display: flex;
     flex-direction: column;
     justify-content:center;

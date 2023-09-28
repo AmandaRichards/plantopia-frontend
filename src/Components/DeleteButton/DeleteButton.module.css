@@ -1,0 +1,31 @@
+.plus{
+max-height: 3em;
+max-width: 3em;
+/* align-content: center;
+justify-content: center;
+align-items: center; */
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: left;
+    align-items: center;
+    margin-top: 0px;
+    /* margin-bottom: 5em; */
+    text-align: center;
+    border: 0cm;
+    background-color: white;
+    position: relative;
+    align-self: center;
+}
+
+.button:hover{
+    opacity: 50%;
+}
+
+P{
+ font-size: 1.5em;
+ margin-left: 1em;
+ margin-top: 0.25em;
+}
